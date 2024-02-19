@@ -8,8 +8,8 @@ const DiceRoller = () => {
         const diceValues = [];
 
         for (let i = 0; i < dice; i++) {
-            const randomDiceNumber = Math.floor(Math.random() * 6) + 1;
-            diceValues.push(randomDiceNumber)
+            const randomDice = Math.floor(Math.random() * 6) + 1;
+            diceValues.push(randomDice);
         }
         setDiceResult(diceValues);
     }
