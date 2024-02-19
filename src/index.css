@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.DiceRoller {
+    width: 500px;
+    height: 530px;
+    margin: 100px auto;
+    box-shadow: 1px 2px 5px hsl(0, 2%, 76%);
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.DiceRoller input{
+    width: 50px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding:4px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    outline:none;
+
+}
+.numDice {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.DiceRoller button{
+   padding: 6px 8px;
+   font-family: 'Poppins', sans-serif;
+   font-size:1em;
+   border: none;
+   background-color: #8c048c;
+   color: #fff;
+   border-radius: 10px;
+   transition: background-color .5s;
+}
+.DiceRoller button:active{
+background-color: #c714c7;
+}
+.diceResult{
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.diceImages {
+    width: 340px;
+    margin: auto;
+}
+.diceImages img{
+    width: 100px;
+    margin:6px;
+
+}
