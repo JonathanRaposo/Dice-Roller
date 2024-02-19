@@ -4,7 +4,7 @@ const DiceRoller = () => {
     const [dice, setDice] = useState(1);
     const [diceResult, setDiceResult] = useState('');
     const [images, setImages] = useState('');
-
+    console.log(typeof dice)
     const handleRollDice = () => {
 
         const diceValues = [];
