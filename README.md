@@ -1,3 +1,9 @@
+
+This is a dice roller component in react. 
+
+![Screen Shot 2024-02-19 at 12 07 31 AM](https://github.com/JonathanRaposo/Dice-Roller/assets/67019470/c10c4f9a-6d8e-495d-9188-dda2dd5b6b7b)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
