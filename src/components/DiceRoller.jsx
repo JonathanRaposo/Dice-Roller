@@ -3,10 +3,8 @@ import { useState } from 'react';
 const DiceRoller = () => {
     const [dice, setDice] = useState(1);
     const [diceResult, setDiceResult] = useState('');
-    const [images, setImages] = useState('');
-    console.log(typeof dice)
-    const handleRollDice = () => {
 
+    const handleRollDice = () => {
         const diceValues = [];
 
         for (let i = 0; i < dice; i++) {
@@ -14,7 +12,6 @@ const DiceRoller = () => {
             diceValues.push(randomDiceNumber)
         }
         setDiceResult(diceValues);
-        setImages(diceValues);
     }
     return (
         <div className="DiceRoller">
@@ -38,7 +35,7 @@ const DiceRoller = () => {
             </div>
 
             <div className='diceImages'>
-                {images && images.map((value, i) => (
+                {diceResult && diceResult.map((value, i) => (
                     <img key={i} src={`/images/dice${value}.png`} alt={`dice ${value}`} />
                 ))}
             </div>
@@ -49,4 +46,3 @@ const DiceRoller = () => {
 export default DiceRoller;
 
 
-// {diceResult && <div className="diceResult">Dice: {diceResult.join(' , ')}</div>}
